@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:context="http://www.springframework.org/schema/context"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+                                 http://www.springframework.org/schema/beans/spring-beans.xsd
+                                 http://www.springframework.org/schema/context
+                                 http://www.springframework.org/schema/context/spring-context.xsd">
+                   
+                                
+   
+    <beans:bean id="zkProperties" class="com.hpf.framework.util.tool.ZkPropertiesFactoryBean">
+        <beans:property name="zkConnect" value="localhost:2181"/> <!-- zookeeper 地址 -->
+        <beans:property name="path" value="/hpf-all-prop"/>  <!-- 数据节点路径 -->
+    </beans:bean>
+  
+</beans:beans>

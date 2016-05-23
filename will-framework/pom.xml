@@ -9,6 +9,7 @@
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
+  <groupId>com.will</groupId>
   <artifactId>will-framework</artifactId>
   <packaging>jar</packaging>
 
