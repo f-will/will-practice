@@ -43,7 +43,7 @@
 		<!-- ehcache -->
 		<ehcache.version>2.6.6</ehcache.version>
 		<!-- memcached -->
-		<memcached.version>3.4.0</memcached.version>
+		<memcached.version>3.0.2</memcached.version>
 		<!-- mail -->
 		<mail.version>1.4.7</mail.version>
 		<!-- jackson -->
@@ -356,15 +356,15 @@
 			</dependency>
 			<!-- ik analyzer -->
 			<dependency>
-				<groupId>org.wltea</groupId>
-				<artifactId>IKAnalyzer</artifactId>
-				<version>2012</version>
+				<groupId>org.wltea.ik-analyzer</groupId>
+				<artifactId>ik-analyzer</artifactId>
+				<version>3.2.8</version>
 			</dependency>
 			<!-- hessian -->
 			<dependency>
 				<groupId>com.caucho</groupId>
 				<artifactId>hessian</artifactId>
-				<version>4.0.381</version>
+				<version>4.0.38</version>
 			</dependency>
 			<!-- ZXing -->
 			<dependency>
