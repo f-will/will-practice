@@ -10,10 +10,10 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.will</groupId>
-  <artifactId>will-core</artifactId>
+  <artifactId>will-service</artifactId>
   <packaging>jar</packaging>
 
-  <name>will-core</name>
+  <name>will-service</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -326,7 +326,7 @@
 	</plugins>
   </reporting>
   <build>
-		<finalName>will-core</finalName>
+		<finalName>will-service</finalName>
 		<defaultGoal>compile</defaultGoal>
 		<plugins> 
 			<plugin>

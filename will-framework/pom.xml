@@ -10,10 +10,10 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.will</groupId>
-  <artifactId>will-core</artifactId>
+  <artifactId>will-framework</artifactId>
   <packaging>jar</packaging>
 
-  <name>will-core</name>
+  <name>will-framework</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -326,7 +326,7 @@
 	</plugins>
   </reporting>
   <build>
-		<finalName>will-core</finalName>
+		<finalName>will-framework</finalName>
 		<defaultGoal>compile</defaultGoal>
 		<plugins> 
 			<plugin>
